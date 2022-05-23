@@ -1,17 +1,45 @@
-# 윈도우즈 채팅 앱(서버)
----
-## 실행 설명
-> 서버를 실행시키면 디버깅용인지, 실사용용인지를 묻는 messageBox가 등장합니다.
-> 하나의 PC에서 디버깅을 할때는 디버깅용을 그렇지않다면 실사용용으로 실행시켜야 합니다.
-> 디버깅용으로 실행시키면 클라이언트의 로컬끝점을, 실사용용으로 실행시키면 클라이언트의 원격끝점을 받아옵니다.
+# BlazorGames
 
-## 기능
-> tcp 소켓통신을 사용한 비동기서버로서 클라이언트의 접속을 받아와 리소스를 저장, 채팅기능 제공
-> 현재접속자, 접근로그, 채팅로그 출력
-> 하트비트 스레드를 통하여 클라이언트의 접속유무 확인, 클라이언트에게 현재 접속자 제공
+This project is a Blazor WebAssembly project where we design, model, implement, and play common board and card games.
 
-## 클라이언트 깃허브 주소
-> https://github.com/jaeho310/windows_chatting_client
+You can see the deployed site here: [https://blazorgames.net/](https://blazorgames.net/)
 
-## 코드 설명용 블로그
-> https://frozenpond.tistory.com/2
+This project is used in many blog posts on my site, including:
+
+### Solitaire
+* [Part 1: Overview](https://exceptionnotfound.net/solitaire-in-blazor-part-1-overview/)
+* [Part 2: The C# Classes](https://exceptionnotfound.net/solitaire-in-blazor-part-2-the-csharp-classes/)
+* [Part 3: Drawing, Discarding, and the Stacks](https://exceptionnotfound.net/solitaire-in-blazor-part-3-drawing-discarding-and-the-stacks/)
+* [Part 4: Drag and Drop](https://exceptionnotfound.net/solitaire-in-blazor-part-4-drag-and-drop/)
+* Part 5: Double-Click Shortcut and Autocomplete
+
+### Tetris
+* [Tetris in Blazor Web Assembly](https://exceptionnotfound.net/tetris-in-blazor-webassembly/)
+* [Part 2: Cells, the Grid, and the Game State](https://exceptionnotfound.net/tetris-in-blazor-part-2-cells-the-grid-and-the-game-state/)
+* [Part 3: Tetrominos](https://exceptionnotfound.net/tetris-in-blazor-part-3-tetrominos/)
+* [Part 4: Displaying the Grid and a Falling Tetromino](https://exceptionnotfound.net/tetris-in-blazor-part-4-displaying-the-grid-and-a-falling-tetromino/)
+* [Part 5: Controls, Upcoming Tetrominos, and Clearing Rows](https://exceptionnotfound.net/tetris-in-blazor-part-5-controls-upcoming-tetrominos-and-clearing-rows/)
+* [Part 6: Scoring, Levels, Music, and Other Features](https://exceptionnotfound.net/tetris-in-blazor-part-6-scoring-levels-music-and-other-features/)
+
+### Minesweeper
+* [Part 1: C# Implementation](https://exceptionnotfound.net/minesweeper-in-blazor-webassembly-part-1-csharp-implementation/)
+* [Part 2: The Blazor Component](https://exceptionnotfound.net/minesweeper-in-blazor-webassembly-part-2-the-blazor-component/)
+
+### Yahtzee
+* [Part 1: The C# Model](https://exceptionnotfound.net/yahtzee-in-blazor-webassembly-part-1-the-csharp-model/)
+* [Part 2: The Blazor Component](https://exceptionnotfound.net/yahtzee-in-blazor-webassembly-part-2-the-blazor-component/)
+
+### Blackjack
+* [Part 1: Rules and Modeling the Game](https://exceptionnotfound.net/blackjack-in-blazor-part-1-rules-and-modeling-the-game/)
+* [Part 2: The C# Classes](https://exceptionnotfound.net/blackjack-in-blazor-part-2-the-csharp-classes/)
+* [Part 3: Game State and Blazor Components](https://exceptionnotfound.net/blackjack-in-blazor-part-3-game-state-and-blazor-components/)
+* [Part 4: Putting it All Together](https://exceptionnotfound.net/blackjack-in-blazor-part-4-putting-it-all-together/)
+
+### Conway's Game of Life
+* [Conway's Game of Life (With Emojis!) in C# and Blazor WebAssembly](https://exceptionnotfound.net/conways-game-of-life-with-emojis-in-csharp-and-blazor-webassembly/)
+
+### Other Posts
+* [Setting the Page Title in a Blazor App](https://exceptionnotfound.net/setting-the-page-title-in-a-blazor-app-net-core/)
+* [Deploying a .NET Core Blazor App to Netlify using GitHub Actions](https://exceptionnotfound.net/deploying-a-net-core-blazor-app-to-netlify-using-github-actions/)
+
+More to come! Pull requests are welcome on this project.
